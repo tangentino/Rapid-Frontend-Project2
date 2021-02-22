@@ -1,15 +1,6 @@
-# React Native Paper Login Template
+﻿# React Native Firebase Login Template
 
-The easiest way to start with your application.
-
-## Features
-
-- Save energy & hours of hard-work
-- Complete source code in React Native
-- Based on [**react-native-paper**](https://reactnativepaper.com/)
-- 5 screens & 16 components
-- Prettier for pretty, formatted code
-- Minimum dependencies
+More templates at [ReactNativeMarket.com](http://reactnativemarket.com/) 💖
 
 ## How to use?
 
@@ -23,7 +14,16 @@ npm install
 yarn install
 ```
 
-3. Run project on iOS / Android.
+3. Go to `src/core/config.tsx` and replace `FIREBASE_CONFIG` with your own firebase config.
+
+```js
+export const FIREBASE_CONFIG = {
+  apiKey: "xxx-yyy-zzz" // etc.
+  // rest of your firebase config
+};
+```
+
+4. Run project on iOS / Android.
 
 ```js
  npm run ios // npm run android
@@ -39,12 +39,22 @@ expo eject
 
 ## Preview
 
-![homescreen](https://raw.githubusercontent.com/callstack/react-native-paper-login-template/master/preview/homescreen.png)
-![login](https://raw.githubusercontent.com/callstack/react-native-paper-login-template/master/preview/login.png)
-![register](https://raw.githubusercontent.com/callstack/react-native-paper-login-template/master/preview/register.png)
-![forgot](https://raw.githubusercontent.com/callstack/react-native-paper-login-template/master/preview/forgot.png)
-![dashboard](https://raw.githubusercontent.com/callstack/react-native-paper-login-template/master/preview/dashboard.png)
+![homescreen](https://raw.githubusercontent.com/venits/react-native-market/master/assets/firebase-login-template/homescreen.png)
+![login](https://raw.githubusercontent.com/venits/react-native-market/master/assets/firebase-login-template/login.png)
+![register](https://raw.githubusercontent.com/venits/react-native-market/master/assets/firebase-login-template/register.png)
+![forgot](https://raw.githubusercontent.com/venits/react-native-market/master/assets/firebase-login-template/forgot.png)
+![dashboard](https://raw.githubusercontent.com/venits/react-native-market/master/assets/firebase-login-template/dashboard.png)
 
-## Made with ❤️ at Callstack
+## Live preview on Expo
 
-This template is an open source project and will always remain free to use. If you think it's cool, please star it 🌟. Callstack is a group of React and React Native geeks, contact us at hello@callstack.com if you need any help with these or just want to say hi!
+Template is available on Expo:
+https://expo.io/@venits/react-native-firebase-login-template-typescript
+
+## Support
+
+In case of any questions or problems, please contact me at:
+[hello@reactnativemarket.com](mailto:hello@reactnativemarket.com)
+
+### Happy Coding 💖
+
+### [ReactNativeMarket.com](http://reactnativemarket.com/)
